@@ -121,7 +121,7 @@ loadBtn.addEventListener(
         behavior: 'smooth',
       });
       
-      lightbox().refresh();
+      lightbox().refresh().destroy();
       console.log(`Current page: ${page}`);
 
       if (page >= totalPages) {
